@@ -47,7 +47,6 @@
         border-radius: 8px;
         border: 1px solid #ccc;
         outline: none;
-        box-sizing: border-box;
     }
 
     input:focus, select:focus {
