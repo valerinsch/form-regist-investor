@@ -1,0 +1,79 @@
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #dbeafe, #f0f9ff);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 320px;
+        background: white;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    label {
+        font-size: 14px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    .radio-group {
+        display: inline-flex;
+        gap: 20px;
+        align-items: center
+    }
+
+    .radio-group label {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        white-space: nowrap;
+        font-size: 14px;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        outline: none;
+    }
+
+    input:focus, select:focus {
+        border-color: #3b82f6;
+    }
+    .check-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .check-item input {
+        width: auto; /* penting banget */
+    }
+    
+    button {
+        margin-top: 15px;
+        width: 100%;
+        padding: 10px;
+        background: #3b82f6;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #2563eb;
+    }
